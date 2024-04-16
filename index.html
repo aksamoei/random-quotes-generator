@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet"  href="./style.css">
+        <title>Quote Generator</title>
+    </head>
+    <body>
+        <header>
+            <p>Daily Quotes</p>
+            <form>
+                <input id="search-author" type="text" placeholder="Search Author">
+            </form>
+        </header>
+        <div id="main-container">
+            <div id="quote-grid">
+                <div id="myQuotes">
+                <h3></h3>
+                <p>-<span></span></p>
+                </div>
+                <div id="user">
+                    <div id="comment">
+                        <button>Comment</button>
+                        <input id="comment-quote" type="text" placeholder="Comment this quote">
+                        <ul></ul>  
+                    </div>
+                    <div id="likes">
+                        <span id="counter">0</span>
+                        <input id="likes-button" type="submit" value="Like">
+                    </div>
+
+                </div>
+                <div>
+                    <input id="next-quote" type="submit" value="Next Quote">
+                </div>
+            </div>
+            <footer>
+                <p>&copy 2024 Daily Quotes</p>
+            </footer>
+        </div>
+        <script src="./src/index.js"></script>
+    </body>
+</html>

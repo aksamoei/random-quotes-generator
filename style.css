@@ -1,0 +1,125 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    width: 80%;
+    margin: auto;
+    background-color: rgba(181, 101, 29, 0.1);
+}
+header{
+    display: flex;
+    justify-content: space-evenly;
+    margin-bottom: 170px;
+    margin-top: 30px;
+}
+header p{
+    font-size: 20px;
+}
+#search-author{
+    padding: 10px;
+}
+#quote-grid{
+    margin-bottom: 150px;
+    background-color: rgba(240, 248, 255, 0.2);
+}
+#myQuotes{
+    width: 500px;
+    background-color: rgba(240, 248, 255, 0.4);
+    text-align: center;
+    margin-left: 200px;
+    margin-bottom: 20px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+#myQuotes p{
+    margin-left: 150px;
+    font-style: oblique;
+}
+#myQuotes p span{
+    margin-left: 5px;
+}
+#myQuotes h3{
+    font-size: 25px;
+    margin-bottom: 15px;
+}
+
+#comment-quote{
+    display: none;
+
+}
+#comment button{
+    font-size: 18px;
+    padding-left: 10px;
+    padding-right: 10px;
+    background-color: darkorange;
+    color: white;
+    border: none;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    border-radius: 5px;
+    margin-bottom: 15px;
+}
+#comment button:hover{
+    background-color: rgb(255, 204, 153);
+    color: black;
+    cursor: pointer;
+}
+#comment-quote{
+    padding-top: 10px;
+    padding-bottom: 10px;
+    background-color: aliceblue;
+    font-size: 16px;
+    margin-bottom: 15px;
+    border: 0.5px solid darkorange;
+}
+#comment ul li{
+    margin-bottom: 10px;
+}
+#user{
+    width: 500px;
+    display: grid;
+    margin-left: 200px;
+    grid-template-columns: 250px 250px;
+    
+    margin-bottom: 25px;
+    
+}
+#likes{
+    text-align: right;
+    font-size: 18px;
+}
+#likes span{
+    margin-right: 10px;
+    color: rgb(123, 2, 66);
+    
+    
+}
+#next-quote{
+    /*width: 500px;*/
+    margin-left: 630px;
+    font-size: 16px;
+}
+footer{
+    width: 100%;
+    text-align: center;
+}
+#likes-button{
+    font-size: 17px;
+    padding-left: 10px;
+    padding-right: 10px;
+    background-color: darkorange ;
+    color: white;
+    border: none;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    border-radius: 5px;
+}
+#likes-button:hover{
+    background-color: rgb(255, 204, 153);
+    cursor: pointer;
+    color: black;
+}
